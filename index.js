@@ -9,6 +9,7 @@ const users=[
     {id:3,name:'Jim', age:35}
 ];
 app.get('/users', (req, res) => {
+    console.log(users);
     res.json(users);
 });
 app.get('/users/:id', (req, res) => {
