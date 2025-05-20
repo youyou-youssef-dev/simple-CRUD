@@ -6,6 +6,9 @@ app.use(express.json());
 const users=[
     {id:1,name:'John', age:30},
     {id:2,name:'Jane', age:25},
+    {id:3,name:'Jim', age:35},
+    {id:1,name:'John', age:30},
+    {id:2,name:'Jane', age:25},
     {id:3,name:'Jim', age:35}
 ];
 app.get('/users', (req, res) => {
